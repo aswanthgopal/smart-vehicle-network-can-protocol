@@ -124,11 +124,9 @@ https://drive.google.com/file/d/14Nsaj2f2EVQumHv7oDtQgC4Jerk5dEgV/view?usp=drive
 
 ## Circuit Diagrams
 
-| Slave Node 1                   | Slave Node 2                   | Master Node                    |
-| ------------------------------ | ------------------------------ | ------------------------------ |
-| ![](slave1_circuit.jpg) | ![](slave2_circuit.jpg) | ![](master_circuit.jpg) |
-
----
+| Slave Node 1 | Slave Node 2 | Master Node |
+|--------------|--------------|-------------|
+| ![](images/slave1_circuit.jpg) | ![](images/slave2_circuit.jpg) | ![](images/master_circuit.jpg) |
 
 ## Software Design
 
