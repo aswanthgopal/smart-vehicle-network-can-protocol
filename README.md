@@ -126,7 +126,7 @@ https://drive.google.com/file/d/14Nsaj2f2EVQumHv7oDtQgC4Jerk5dEgV/view?usp=drive
 
 | Slave Node 1                   | Slave Node 2                   | Master Node                    |
 | ------------------------------ | ------------------------------ | ------------------------------ |
-| ![](images/slave1_circuit.jpg) | ![](images/slave2_circuit.jpg) | ![](images/master_circuit.jpg) |
+| ![](images/slave1_circuit.png) | ![](images/slave2_circuit.png) | ![](images/master_circuit.png) |
 
 ---
 
