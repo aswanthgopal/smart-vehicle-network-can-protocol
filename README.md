@@ -4,27 +4,6 @@ This project demonstrates a small-scale automotive communication system using th
 
 ---
 
-## System Architecture
-
-```
-                      CAN Bus (CANH / CANL)
-       ┌────────────────────────────────────────────┐
-       │                                            │
- ┌─────┴──────┐   ┌──────────────┐   ┌─────────────┴────┐
- │   Master   │   │  Slave Node 1│   │  Slave Node 2    │
- │            │   │              │   │                  │
- │ Arduino +  │   │ Arduino +    │   │ Arduino +        │
- │ MCP2515    │   │ MCP2515      │   │ MCP2515          │
- │            │   │              │   │                  │
- │ LCD (I2C)  │   │ HC-SR04      │   │ Potentiometer    │
- │ LEDs       │   │ LM35         │   │ IR Sensor        │
- │ Buzzer     │   │ Push Button  │   │                  │
- └────────────┘   └──────────────┘   └──────────────────┘
-                  IDs: 0x001–0x003    IDs: 0x005–0x006
-```
-
----
-
 ## CAN Message Priority Table
 
 | Priority | ID      | Source  | Function             | Data            |
@@ -165,16 +144,6 @@ Sensor values are transmitted only when changes exceed defined thresholds, reduc
 | ------------------- | ------------------ |
 | `mcp_can`           | coryjfowler        |
 | `LiquidCrystal_I2C` | Frank de Brabander |
-
----
-
-## Getting Started
-
-1. Upload `slave_node_1.ino` to the first Arduino
-2. Upload `slave_node_2.ino` to the second Arduino
-3. Upload `master_node.ino` to the third Arduino
-4. Connect CAN bus and ensure proper wiring
-5. Power the system
 
 ---
 
