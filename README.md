@@ -58,15 +58,15 @@ https://drive.google.com/file/d/14Nsaj2f2EVQumHv7oDtQgC4Jerk5dEgV/view?usp=drive
 
 ### MCP2515 → Arduino (same for all nodes)
 
-| MCP2515   | Arduino | Note          |
-| --------- | ------- | ------------- |
-| VCC       | 5V      |               |
-| GND       | GND     |               |
-| SCK       | D13     | Hardware SPI  |
-| SI (MOSI) | D11     | Hardware SPI  |
-| SO (MISO) | D12     | Hardware SPI  |
-| CS        | D10     | Configurable  |
-| INT       | D2      | Interrupt pin |
+| MCP2515   | Arduino | 
+| --------- | ------- |
+| VCC       | 5V      |              
+| GND       | GND     |             
+| SCK       | D13     | 
+| SI (MOSI) | D11     | 
+| SO (MISO) | D12     | 
+| CS        | D10     | 
+| INT       | D2      |
 
 ### Slave Node 1
 
